@@ -679,7 +679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1450075145}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512229213}
+        m_TargetAssemblyTypeName: Test, Assembly-CSharp
+        m_MethodName: OnTurnOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1450075145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,7 +741,7 @@ GameObject:
   - component: {fileID: 1512229214}
   - component: {fileID: 1512229213}
   m_Layer: 0
-  m_Name: FlashLightManager
+  m_Name: TestManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -744,7 +756,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1512229212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc2849d13e4382547bfebfea6bed8010, type: 3}
+  m_Script: {fileID: 11500000, guid: 61079ada9d554e2f9d8a5881d549ae08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1512229214
@@ -977,7 +989,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1714960789}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512229213}
+        m_TargetAssemblyTypeName: Test, Assembly-CSharp
+        m_MethodName: OnTurnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1714960789
 MonoBehaviour:
   m_ObjectHideFlags: 0
