@@ -4,11 +4,11 @@ public class Test : MonoBehaviour
 {
     public void OnTurnOn()
     {
-        FlashLightManager.Enable();
+        Flashlight.Enable();
     }
     
     public void OnTurnOff()
     {
-        FlashLightManager.Disable();
+        Flashlight.Disable();
     }
 }
