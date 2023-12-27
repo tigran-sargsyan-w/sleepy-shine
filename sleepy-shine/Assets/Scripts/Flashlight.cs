@@ -3,9 +3,15 @@ using UnityEngine;
 
 public static class Flashlight
 {
+    #region Fields
+
     static AndroidJavaObject camera;
     static string cameraId;
-    
+
+    #endregion
+
+    #region Methods
+
     public static void Enable()
     {
         if (AndroidUnityBridge.IsAndroidVersionNew)
@@ -29,6 +35,8 @@ public static class Flashlight
             DisableOldFlashlight();
         }
     }
+
+    #endregion
 
     #region Enable Flashlight
 
