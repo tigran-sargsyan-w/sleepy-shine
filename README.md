@@ -11,7 +11,7 @@ Transform your phone into a gentle night lamp with SleepyShine! Set the mood wit
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/sleepyshine.git
+   https://github.com/tigran-sargsyan-w/sleepy-shine.git
    ```
 2. Open the project in your development environment.
 3. Run the app and enjoy peaceful nights!
